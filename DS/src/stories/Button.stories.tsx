@@ -8,6 +8,7 @@ export default {
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },
+    backgroundImage: { control: 'file'},
   },
 } as ComponentMeta<typeof Button>;
 
@@ -34,4 +35,5 @@ export const Small = Template.bind({});
 Small.args = {
   size: 'small',
   label: 'Button',
+  primary: true
 };
