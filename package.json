@@ -1,0 +1,16 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "This is A design system for Health Shield",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Healthshield1@bitbucket.org/Healthshield1/designsystem.git"
+  },
+  "author": "Gregor Aitken",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Healthshield1/designsystem#readme"
+}
