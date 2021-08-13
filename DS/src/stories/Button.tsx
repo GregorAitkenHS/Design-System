@@ -35,7 +35,6 @@ export const Button = ({
   primary = false,
   size = 'medium',
   backgroundColor,
-  backgroundImage,
   label,
   ...props
 }: ButtonProps) => {
@@ -44,7 +43,7 @@ export const Button = ({
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={{ backgroundColor, backgroundImage: `url(${backgroundImage})` }}
+      style={{ backgroundColor}}
       {...props}
     >
       {label}
