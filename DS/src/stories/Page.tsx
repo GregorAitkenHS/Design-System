@@ -2,18 +2,27 @@ import React from 'react';
 
 import { Header } from './Header';
 import './page.scss';
+import HeroImage from "./HeroImage";
 
 interface PageProps {
   user?: {};
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
+  img: string;
+  
 }
 
-export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) => (
+export const Page = ({ user, onLogin, onLogout, onCreateAccount, img  }: PageProps) => (
   <article>
     <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
-
+    <HeroImage
+  img={img}
+  link="#"
+  linkTitle="Example Button"
+  subTitle="test"
+  title="test title"
+/>
     <section>
       <h2>Pages in Storybook</h2>
       <p>

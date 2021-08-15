@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Button } from './Button';
 import './header.css';
-
+import logo from "../../.storybook/assets/logo.png";
 
 interface HeaderProps {
   user?: {};
@@ -15,9 +15,9 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
   <header>
     <div className="wrapper">
       <div>
-       <img width="100px" src="http://localhost:6008/static/media/.storybook/assets/logo.png" alt="logo"/>
+       <img width="100px" src={logo} alt="logo"/>
       </div>
-      <div>
+    <div>
         {user ? (
           <Button size="small" onClick={onLogout} label="Log out" />
         ) : (
