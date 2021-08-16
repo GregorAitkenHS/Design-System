@@ -1,5 +1,5 @@
 {
-  "name": "ds-pkg-blog-post",
+  "name": "healthshield-ds",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -60,5 +60,17 @@
     "@storybook/node-logger": "^6.3.7",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.7"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregorAitkenHS/Design-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregorAitkenHS/Design-System/issues"
+  },
+  "homepage": "https://github.com/GregorAitkenHS/Design-System#readme"
 }
